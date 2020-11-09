@@ -71,14 +71,13 @@ public class Verification extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String OTP = otp.getText().toString();
-                if(OTP.length() == 6)
+                if(OTP.length() != 6)
                     otp.setError("Enter a valid OTP");
                 else{
                     verifyCode(OTP);
                 }
             }
         });
-        verifyCode("91" +LogIn.phone);
 
     }
 
