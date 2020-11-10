@@ -24,7 +24,6 @@ import com.google.firebase.auth.FirebaseAuth;
 public class MainActivity extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
-    AppBarLayout appBarLayout;
     NavigationView navigationView;
     ActionBarDrawerToggle actionBarDrawerToggle;
     public static ContainerClass.Quiz quiz = new ContainerClass.Quiz();

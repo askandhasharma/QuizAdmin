@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizadmin">
-        <activity android:name=".CreateQuiz"></activity>
+        <activity android:name=".UserList"></activity>
+        <activity android:name=".CreateQuiz" />
         <activity android:name=".Verification" />
         <activity android:name=".LogIn" />
         <activity android:name=".SplashScreen">
